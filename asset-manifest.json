@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/iti/static/css/main.234ac00e.css",
+    "main.js": "/iti/static/js/main.b0a94cbe.js",
+    "index.html": "/iti/index.html",
+    "main.234ac00e.css.map": "/iti/static/css/main.234ac00e.css.map",
+    "main.b0a94cbe.js.map": "/iti/static/js/main.b0a94cbe.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.234ac00e.css",
+    "static/js/main.b0a94cbe.js"
+  ]
+}
