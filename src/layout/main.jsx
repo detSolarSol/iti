@@ -13,10 +13,10 @@ class Main extends React.Component {
         this.fetchMovies("terminator"); // Загружаем фильмы по умолчанию
     }
 
-    fetchMovies = (str) => {
+    fetchMovies = (searchQuery) => {
         this.setState({ loading: true }); // Показываем прелоадер перед запросом
 
-        fetch(`http://www.omdbapi.com/?apikey=d05d5499&s=${str}`)
+        fetch(`http://www.omdbapi.com/?apikey=d05d5499&s=${searchQuery}`)
             .then((response) => response.json())
             .then((data) => {
                 if (data.Response === "True") {
